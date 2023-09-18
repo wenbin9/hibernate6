@@ -1,0 +1,39 @@
+{
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "customer",
+  "fields": [
+    {
+      "fieldName": "firstName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lastName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "address",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "age",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "effectDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "expiryDate",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "name": "Customer",
+  "pagination": "pagination",
+  "relationships": [],
+  "service": "serviceImpl"
+}
